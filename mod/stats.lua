@@ -17,7 +17,7 @@ local alpha = CharacterBuilder.newCharacterSet("Alpha")
 
 -- next we setup all the characters stuff:
 -- Note: anything you don't want you don't need to put, just remove it
-
+alpha:addCostume("langusta_wlosy")
 --[[
 	To add a costume you do
 	Character:AddCostume(ID)
@@ -87,7 +87,7 @@ normalStats.Damage = 3.50
 normalStats.Firedelay = 2.73
 normalStats.Shotspeed = 1.00
 normalStats.Range = 5.50
-normalStats.Speed = 1.40
+normalStats.Speed = 1.20
 normalStats.Flying = false
 normalStats.Luck = -1.00
 
